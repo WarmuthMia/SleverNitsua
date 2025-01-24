@@ -1,0 +1,128 @@
+﻿body {
+    background-color: black;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: dimgrey;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+}
+
+.name {
+    transition: transform 0.3s ease, color 0.3s ease;
+    color: red;
+}
+
+    .name:hover {
+        transform: scale(1.2);
+        color: dimgrey;
+        background-color: red;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+.description {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size:20px;
+    font-weight:700;
+    color: dimgrey;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-me, .links {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 45%;
+}
+
+.about-me {
+    text-align: center;
+}
+
+
+.about-me li {
+    font-weight:700;
+    color: dimgrey;
+}
+
+.links 
+{
+    text-align: center;
+
+}
+
+.links h3 {
+    font-size:24px;
+}
+
+.horizontal-list {
+    list-style-type: disc;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+    .horizontal-list li {
+        margin: 10px 20px;
+    }
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links li 
+{
+    margin: 30px 0;
+}
+
+.links a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .links a.twitch {
+        color: #6441a5;
+    }
+
+    .links a.youtube {
+        color: #FF0000;
+    }
+
+    .links a.insta {
+        color: #C13584;
+    }
+
+    .links a.tt {
+        color: #69C9D0;
+    }
+
+    .links a.discord {
+        color: #7289DA;
+    }
